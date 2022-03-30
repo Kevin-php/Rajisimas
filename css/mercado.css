@@ -1,7 +1,7 @@
 .bg-mercado{
     width: 100%;
     height: 90vh;
-    background: center center fixed;
+    background: url(../img/FondoDesktop.jpg) center center fixed;
 }
 
 .bg-mercado div a{
@@ -14,3 +14,17 @@
 .bg-mercado div a:hover{
     box-shadow: 0 0 30px rgb(242, 255, 54);
 }
+
+@media only screen and (max-device-width: 769px)  {
+    .bgimg1{
+      background-size: 150%;
+    }
+  }
+  
+  @media only screen and (max-device-width: 425px){
+    .bgimg1{
+      background: url(../img/FondoPhone.jpg) center center fixed;
+      background-size: 100%;
+    }
+  }
+  

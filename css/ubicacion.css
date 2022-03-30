@@ -3,7 +3,7 @@
 .bgimg1{
     width: 100%;
     height: auto;
-    background: center center fixed;
+    background: url(../img/FondoDesktop.jpg) center center fixed;
 }
   
 .divisor-text{
@@ -154,17 +154,18 @@
     color: black;
 }
 
-@media only screen and (max-device-width: 425px) {
+@media only screen and (max-device-width: 769px)  {
     .bgimg1{
-        background-size: 300%;
-        background-repeat: no-repeat;
+      background-size: 150%;
     }
-
-    .bgimg2 {
-        background-size: 250%;
-        background-repeat: no-repeat;
+  }
+  
+  @media only screen and (max-device-width: 425px){
+    .bgimg1{
+      background: url(../img/FondoPhone.jpg) center center fixed;
+      background-size: 100%;
     }
-
+    
     .ubi {
         width: 40%;
     }  
@@ -176,6 +177,5 @@
     .text a{    
         font-size: 10px;
     }
-    
-    
-}
+  }
+  

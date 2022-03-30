@@ -2,7 +2,7 @@
 .bgimg1{
   width: 100%;
   height: auto;
-  background: center center fixed;
+  background: url(../img/FondoDesktop.jpg) center center fixed;
 
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -193,15 +193,14 @@
 
 @media only screen and (max-device-width: 769px)  {
   .bgimg1{
-    background-size: 250%;
-    background-repeat: no-repeat;
+    background-size: 150%;
   }
 }
 
 @media only screen and (max-device-width: 425px){
   .bgimg1{
-    background-size: 250%;
-    background-repeat: no-repeat;
+    background: url(../img/FondoPhone.jpg) center center fixed;
+    background-size: 100%;
   }
 }
 
