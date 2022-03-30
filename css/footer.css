@@ -1,0 +1,68 @@
+footer{
+    background-color: rgb(166, 17, 3);
+    padding: 10px 0px;
+    font-size: 18px;
+}
+/*----- Nav Desktop -----*/
+
+.footer-social{
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid gray;
+}
+
+.footer-social div{
+    padding: 0px 3px;
+}
+
+.footer-social div a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-social div a:hover{
+    color: gray;
+}
+
+.footer-social div a i{
+    padding-right: 5px;
+}
+
+.footer-social div img{
+    width: 40px;
+}
+
+/*----- Nav Desktop -----*/
+
+
+/*----- Nav Mobile -----*/
+.footer-mobile{
+    display: none;
+}
+
+footer div p{
+    margin: 0px;
+}
+/*----- Nav Mobile -----*/
+@media only screen and (max-device-width: 425px) {
+    .socialMedia{
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-device-width: 768px) {
+    .topnav{
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-device-width: 769px)  {
+    .topnav-mobile{
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-device-width: 769px)  {
+  
+  }
+  

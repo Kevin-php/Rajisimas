@@ -1,0 +1,182 @@
+/* Parallax css */
+
+.bgimg1{
+    width: 100%;
+    height: auto;
+    background: url(../img/fondo2.jpg) top center fixed;
+    background-size: cover;
+}
+  
+.divisor-text{
+    background-color: rgba(70, 115, 2, 0.877);
+    height: 80px;
+    width: auto;
+}
+
+.title-div {
+    /* font-family: 'Poppins', sans-serif; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    width: calc(100% - 50px);
+    
+    
+    
+    /* box-shadow: 0 0 10px rgba(35, 218, 11, 0.521);
+    border: 1px solid rgb(100, 255, 144); */
+}
+
+.title-estado{
+    text-transform: uppercase;
+    font-size: 5vw;
+    color: #008552;
+    /* background-color: linear-gradient(90deg, #9ebd13 0%, #008552 100%); */
+    
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* padding: 10px; */
+    /* margin: 20px; */
+}
+
+.line{
+    border-color: #008552;
+
+    /* Style 1 */
+    /* border-width: 20px;
+    border-style: double none double none; */
+    
+    /* Style 2 */
+    /* border-width: 7px;
+    border-style: double none double none; */
+    
+    /* Style 3*/
+    border-width: 5px;
+    border-style: solid none solid none;
+    
+    /* Style 4*/
+    /* border-width: 20px;
+    border-style: none none solid none; */
+    
+    width: 100%;
+    height: 2vh;
+}
+
+.ubi {
+    position: relative;
+    width: 25%;
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    /* background-color: hsla(133, 83%, 45%, 0.451); */
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-color: rgb(70, 115, 2); */
+    background: linear-gradient(180deg, #9ebd13 0%, #008552 100%);
+    overflow: hidden;
+    /* overflow: auto; */
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+    opacity: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.ubi:hover .overlay {
+    /* width: auto; */
+    transform: scale(1);
+    opacity: 0.9;
+}
+
+.overlay-c{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-color: rgb(70, 115, 2); */
+    background: linear-gradient(180deg, #9ebd13 0%, #008552 100%);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+    opacity: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 50%;
+}
+
+.ubi:hover .overlay-c {
+    /* width: auto; */
+    transform: scale(1);
+    opacity: 0.9;
+}
+
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    padding: 25px;
+}
+
+.text a{
+    text-decoration: none;
+    color: white;
+
+    font-size: 15px;
+}
+
+.text a:hover{
+    color: black;
+}
+
+@media only screen and (max-device-width: 425px) {
+    .bgimg1{
+        background-size: 300%;
+        background-repeat: no-repeat;
+    }
+
+    .bgimg2 {
+        background-size: 250%;
+        background-repeat: no-repeat;
+    }
+
+    .ubi {
+        width: 40%;
+    }  
+
+    .text p{
+        display: none;
+    }
+
+    .text a{    
+        font-size: 10px;
+    }
+    
+    
+}
