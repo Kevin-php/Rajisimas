@@ -1,10 +1,7 @@
 /*  Fondos  */
 .bgimg1{
-  /* height: 80vh; */
   width: 100%;
-  background: url(../img/fondo3.jpg) top center fixed;
-  background-size: cover;
-  box-shadow: inset 100% #00000028;
+  background: center center fixed;
 
   display: -webkit-flex;
   display: -ms-flexbox;

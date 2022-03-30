@@ -1,5 +1,4 @@
 body, html {
-  /* height: 100%; */
   scroll-behavior: smooth;
 }
 
@@ -24,7 +23,6 @@ body, html {
 /*----- Barra de navegación -----*/
 header{
   height: 90px;
-
 }
 
 .imgnav{
