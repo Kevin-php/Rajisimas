@@ -271,6 +271,14 @@ ul li:hover .slider p {
   .socialMedia{
     display: none;
   }
+
+  .btn-up{
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    box-shadow: 0 0 10px rgb(255, 54, 54);
+  }
 }
 
 @media only screen and (max-device-width: 768px) {

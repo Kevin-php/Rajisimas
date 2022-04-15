@@ -1,35 +1,35 @@
 footer{
-    background-color: rgb(166, 17, 3);
-    padding: 10px 0px;
-    font-size: 18px;
+  background-color: rgb(166, 17, 3);
+  padding: 10px 0px;
+  font-size: 18px;
 }
 /*----- Nav Desktop -----*/
 
 .footer-social{
-    width: 100%;
-    padding: 10px 0px;
-    border-bottom: 1px solid gray;
+  width: 100%;
+  padding: 10px 0px;
+  border-bottom: 1px solid gray;
 }
 
 .footer-social div{
-    padding: 0px 3px;
+  padding: 0px 3px;
 }
 
 .footer-social div a{
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .footer-social div a:hover{
-    color: gray;
+  color: gray;
 }
 
 .footer-social div a i{
-    padding-right: 5px;
+  padding-right: 5px;
 }
 
 .footer-social div img{
-    width: 40px;
+  width: 40px;
 }
 
 /*----- Nav Desktop -----*/
@@ -37,16 +37,20 @@ footer{
 
 /*----- Nav Mobile -----*/
 .footer-mobile{
-    display: none;
+  display: none;
 }
 
 footer div p{
-    margin: 0px;
+  margin: 0px;
 }
 /*----- Nav Mobile -----*/
 @media only screen and (max-device-width: 425px) {
     .socialMedia{
       display: none;
+    }
+
+    footer{
+      font-size: 12px;
     }
   }
   

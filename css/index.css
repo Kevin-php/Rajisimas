@@ -14,48 +14,15 @@
 
 }
 
-.parallax-text{
+.divisor-text{
   background: linear-gradient(180deg, #9ebd13 0%, #008552 100%);
   height: 120px;
   width: auto;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 /* --------------- Productos --------------- */
-
-.img-prod{
-  width: 80%;
-}
-
 .raj{
   width: 60%;
-}
-
-.products{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 100px 5px;
-}
-
-.produc-rajisimas{
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-
-  padding: 50px 0px;
-}
-
-.how-to-pro{
-  padding-bottom: 100px;
 }
 
 .how-to{
@@ -147,21 +114,12 @@
 }
 
 @media only screen and (max-device-width: 425px) {
-  .img-prod {
-      width: 40%;
-  }
-
   .raj{
     width: 35%;
   }
-
 }
 
 @media only screen and (max-device-width: 768px) {
-  .img-prod {
-    width: 55%;
-  }
-
   .raj{
     width: 45%;
   }
@@ -169,6 +127,7 @@
   .desktop{
     display: none;
   }
+  
   .smartphone{
     display:block;
   }
