@@ -21,10 +21,6 @@ body, html {
 /*----- Scroll -----*/
 
 /*----- Barra de navegación -----*/
-header{
-  height: 90px;
-}
-
 .imgnav{
   height: 70px;
 } 
@@ -279,6 +275,10 @@ ul li:hover .slider p {
     background-color: red;
     box-shadow: 0 0 10px rgb(255, 54, 54);
   }
+
+  .imgnav{
+    height: 50px;
+  } 
 }
 
 @media only screen and (max-device-width: 768px) {

@@ -4,10 +4,8 @@ window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
-    // document.getElementById("btn-up").style.visibility = "visible";
   } else {
     document.getElementById("navbar").style.top = "-100px";
-    // document.getElementById("btn-up").style.visibility = "hidden";
   }
   prevScrollpos = currentScrollPos;
 }

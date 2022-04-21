@@ -16,15 +16,15 @@
 }
 
 @media only screen and (max-device-width: 769px)  {
-    .bgimg1{
-      background-size: 150%;
-    }
+  .bgimg1{
+    background-size: 150%;
   }
+}
   
-  @media only screen and (max-device-width: 425px){
-    .bgimg1{
-      background: url(../img/FondoPhone.jpg) center center fixed;
-      background-size: 100%;
-    }
+@media only screen and (max-device-width: 425px){
+  .bg-mercado{
+    background: url(../img/FondoPhone.jpg) center center fixed;
+    background-size: 100%;
   }
+}
   

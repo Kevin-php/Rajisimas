@@ -3,15 +3,6 @@
   width: 100%;
   height: auto;
   background: url(../img/FondoDesktop.jpg) center center fixed;
-
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
 }
 
 .divisor-text{
@@ -113,54 +104,6 @@
   display: none;
 }
 
-@media only screen and (max-device-width: 425px) {
-  .raj{
-    width: 35%;
-  }
-}
-
-@media only screen and (max-device-width: 768px) {
-  .raj{
-    width: 45%;
-  }
-
-  .desktop{
-    display: none;
-  }
-  
-  .smartphone{
-    display:block;
-  }
-
-  .flip-box {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-  }
-
-  .how-to-pro{
-    padding-bottom: 50px;
-  }
-}
-
-@media only screen and (min-device-width: 769px)  {
-  .desktop{
-    display: block;
-  }
-}
-
-@media only screen and (max-device-width: 769px)  {
-  .bgimg1{
-    background-size: 150%;
-  }
-}
-
-@media only screen and (max-device-width: 425px){
-  .bgimg1{
-    background: url(../img/FondoPhone.jpg) center center fixed;
-    background-size: 100%;
-  }
-}
 
 /*-----  Acerca de -----*/
 .m-v-v{
@@ -202,6 +145,15 @@
 }
 
 @media only screen and (max-device-width: 425px){
+  .bgimg1{
+    background: url(../img/FondoPhone.jpg) center center fixed;
+    background-size: 100%;
+  }
+
+  .raj{
+    width: 35%;
+  }
+
   .barr2{
       display: none;
     }
@@ -219,6 +171,40 @@
     border-radius: 50px;
     width: calc(100% - 50px);
     height: 7px;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .bgimg1{
+    background-size: 150%;
+  }
+
+  .raj{
+    width: 45%;
+  }
+
+  .desktop{
+    display: none;
+  }
+  
+  .smartphone{
+    display:block;
+  }
+
+  .flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+  }
+
+  .how-to-pro{
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (min-device-width: 769px)  {
+  .desktop{
+    display: block;
   }
 }
 
